@@ -1,0 +1,25 @@
+#mainlogo{
+    width: 70px;
+    height: 40px;
+}
+
+#bell{
+    width: 15px;
+    height: 15px;
+}
+#application{
+    width: 15px;
+    height: 15px;
+}
+#create{
+    width: 15px;
+    height: 15px;
+}
+
+#sidebar{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    height: 100%;
+}
+
