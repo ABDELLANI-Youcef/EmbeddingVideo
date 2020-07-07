@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Embedding video</title>
-    <link rel="stylesheet" href="style.css" type=""> 
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" type="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <img id="mainlogo" src="youtube-logo-png-transparent-6.png" alt="youtube logo">
-        <input type="text" name="research" id="research">
-        <button type="submit">R</button>
-        <img id="bell" src="bell.png" alt="bell">
-        <img id="application" src="bell.png" alt="bell">
-        <img id="create" src="bell.png" alt="bell">
+      <div>
+        <img
+          id="mainlogo"
+          src="youtube-logo-png-transparent-6.png"
+          alt="youtube logo"
+        />
+      </div>
+      <div class="sea">
+        <input type="text" class="search" name="research" id="research" placeholder="Search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <div class="icons">
+        <div>
+          <i class="fa fa-video-camera ib"></i>
+        </div>
+        <div>
+          <i class="fa fa-th ib"></i>
+        </div>
+        <div>
+          <i class="fa fa-bell ib"></i>
+        </div>
+        <div>
+          <i class="fa fa-user-circle-o ib" aria-hidden="true"></i>
+        </div>
+      </div>
     </header>
 
     <main>
-        <!-- I got the solution to share youtube from this link 
+      <!-- I got the solution to share youtube from this link 
              w3scholl -->
-             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h2>First project</h2>
-
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/V74l_zS1x8E"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h2>First project</h2>
     </main>
     <aside id="sidebar">
-        <img src="bell" alt="bell">
+      <!-- <img src="bell.png" alt="bell"> -->
     </aside>
-</body>
+  </body>
 </html>
