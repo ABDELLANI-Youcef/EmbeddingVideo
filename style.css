@@ -8,18 +8,22 @@ header{
     align-items: center;
     padding: 0px;/*20px;*/
     z-index: 7;
+    justify-content: space-between;
 }
 
 .sea{
     display: flex;
-    width: 80%;
+    width: 35%;/*80%;*/
     padding: 0px 200px 0px 200px ;
     
 }
-
+.sea button{
+    border: 1px solid grey;
+}
 .icons{
     display: flex;
     padding: 5px;/*20px;*/
+    margin-right: 35px;
 }
 
 .ib{
@@ -52,7 +56,7 @@ header{
     position: absolute;
     right: 0px;
     top: 70px;
-    
+    background-color: red;
     width: 27%;
     border: 1px solid black;
 }
@@ -64,9 +68,47 @@ header{
 main{
     position: absolute;
     top: 80px;
+    width: 66%;
+    
     margin-left: 90px;
 }
 
 #youtube{
     
+}
+.user{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+#subscribe{
+    background-color: red;
+    color: white;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+}
+#comment{
+    display: flex;
+    align-items: center;
+}
+#comment-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#avatar-info{
+    margin-left: 10px;
+}
+#subscribe{
+    padding: 10px;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+    border-radius: 0%;
+    border: none;
 }
