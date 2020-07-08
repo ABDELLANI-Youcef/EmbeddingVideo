@@ -1,6 +1,6 @@
 # EmbeddingVideo
 
-![screen shot of our web page](screen shot.png)
+![screen shot of our web page](screenshot.png)
 ## Built With
 - HTML
 - CSS
