@@ -56,13 +56,13 @@ header{
     height: 15px;
 }
 
-#sidebar{
+aside{
     position: absolute;
-    right: 0px;
+    right: 50px;
     top: 70px;
     
-    width: 27%;
-    border: 1px solid black;
+    width: 15%;
+    
 }
 .search{
     width: 100%;
@@ -119,4 +119,8 @@ button{
 
 #g1-2{
     display: flex;
+}
+
+.video-img{
+    float: left;
 }
